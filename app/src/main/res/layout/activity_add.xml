@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ <Button
+     android:textColor="#FFFF"
+
+     android:background="@drawable/button"
+     android:id="@+id/friends"
+     android:layout_gravity="center"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Add Friends And Family"/>
+
+
+ <Button
+     android:layout_marginTop="20dp"
+     android:textColor="#FFFF"
+
+     android:background="@drawable/button"
+     android:id="@+id/trackmode"
+     android:layout_gravity="center"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Go To Travel Mode "/>
+
+
+
+ <Button
+     android:layout_marginTop="20dp"
+     android:textColor="#FFFF"
+
+     android:background="@drawable/button"
+     android:id="@+id/logoutbtn"
+     android:layout_gravity="center"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Log Out "/>
+</LinearLayout>
